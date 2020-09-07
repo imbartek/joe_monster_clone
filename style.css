@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    padding: 0 10%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+nav{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.logoContainer{
+    width: 60%;
+    display: flex;
+    font-size: 1rem;
+}
+.searchContainer{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+.searchContainer h4{
+    font-weight: lighter;
+}
+.searchContainer h4 b{
+    font-weight: bold;
+}
+.searchContainerItem{
+    margin-right: 25px;
+}
+.mainNavigation{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+.yellowBox{
+    display: flex;
+    flex-flow: row;
+    background-color: #fddb00;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.yellowBoxList{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.yellowBoxList li{
+    list-style: none;
+}
+.yellowBoxList li a{
+    text-decoration: none;
+    color: #555b31;
+    font-weight: bolder;
+}
+.yellowBoxSendBtn{
+    color: #000;
+    font-weight: bold;
+}
+.greyBox{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.greyBoxList{
+    display: flex;
+    width: 100%;
+}
+.greyBoxList li{
+    list-style: none;
+    margin: 0 5px;
+}
+.greyBoxList li a{
+    text-decoration: none;
+    color: #555b31;
+    font-size: 14px;
+}
+main{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    padding-top: 20px;
+}
+.left, .right{
+    width: 20%;
+}
+.leftItem{
+    margin-bottom: 10px;
+}
+.leftItem img{
+    width: 100%;
+}
+.center{
+    width: 60%;
+    padding: 0 50px;
+}
+.centerTitle{
+    margin-bottom: 15%;
+}
+.centerTitle h1{
+    color: red;
+    margin-bottom: 20px;
+}
+.centerTitle p{
+    font-weight: bold;
+}
+.centerTitle img{
+    width: 100%;
+    margin: 20px 0;
+}
+.centerSpan{
+    float: right;
+}
+.rightGalery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.rightGalery img{
+    width: 100%;
+}
+.right h3{
+    font-weight: bolder;
+}
+.rightSpan{
+    font-size: 12px;
+    float: right;
+}
+.righList{
+    margin: 25% 0;
+}
+.righList ul{
+    display: flex;
+    justify-content: space-between;
+    border-top: 5px solid lightgray;
+    padding-top: 10px;
+}
+.righList ul li{
+    list-style: none;
+    width: 10%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.righList ul li:nth-child(1){
+    border-bottom: 5px solid gray;
+}
+.rightTheLast{
+    margin-bottom: 5%;
+}
+.rightTheLast img{
+    width: 100%;
+}
+.rightLogin h1{
+    font-size: 20px;
+    border-bottom: 4px solid lightgray;
+    padding-bottom: 5px;
+    margin-bottom: 15%;
+}
+.rightLoginItem{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.rightLoginItem h5{
+    color: red;
+    font-size: 16px;
+    margin: 5% 0;
+}
+.rightLoginItem p{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 5%;
+}
+.rightLoginItemList li{
+    font-size: 14px;
+}
+.rightNewsTitle{
+    font-size: 20px;
+    border-bottom: 4px solid lightgray;
+    padding-bottom: 5px;
+    margin-bottom: 5%;
+}
+.rightNewsGallery img{
+    width: 23%;
+}
+.wrzuc{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.rightJokesTitle{
+    font-size: 20px;
+    border-bottom: 4px solid lightgray;
+    padding-bottom: 5px;
+    margin-bottom: 5%;
+}
+.rightJokesText{
+    font-size: 12px;
+}
+.rightJokesMore{
+    float: right;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.archive{
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 15%;
+}
+.archiveTitle{
+    font-size: 20px;
+    border-bottom: 4px solid lightgray;
+    padding-bottom: 5px;
+    margin-bottom: 5%;
+    text-align: left;
+    width: 100%;
+}
+.archive select{
+    width: 40%;
+}
+.archiveList{
+    display: flex;
+}
+.archiveList li{
+    list-style: none;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px 5px;
+}
+.archiveList li:nth-child(1){
+    background-color: #fddb00;
+    color: #fff;
+}
+footer{
+    width: 100%;
+}
+.footerBorder{
+    width: 100%;
+    height: 5px;
+    border: 1px solid black;
+    background-color: grey;
+}
+.foooterList{
+    display: flex;
+}
+.foooterList li{
+    margin: 5px 10px;
+}
+.foooterList li:nth-child(1){
+    font-weight: bold;
+}
+.foooterList li a{
+    color: #000;
+    font-size: 14px;
+}
+.footerBottom{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+}
+.footerBottom a{
+    color: #000;
+}
